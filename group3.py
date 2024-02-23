@@ -101,19 +101,28 @@ def z_score(x, mu, sigma):
     x is the population item
     mu is the population mean
     sigma is the population standard deviation
-    
+
     Returns the z-score of x
     """
-    
-    # Participating group member names go in this comment
-    """
-    Andrew Walsh
-    
-    Could not get a hold of group members at all.
-    """
-    # Your code goes between this comment and the return
-function z_score(x, mu, sigma):
-    difference = x - mu
-    z_score = difference / sigma
-    return z_score # Place the calculated z-score result between the return statement and this comment so it will be returned by the z_score function
 
+    # Participating group member names go in this comment
+    '''
+    Andrew Walsh
+    Rheauna Byrd
+    '''
+    # Your code goes between this comment and the return
+    '''Pseudocode:
+    Get the score from the user (x)
+    Get the mean data from the user (mu)
+    Get the standard deviation data (sigma)
+    Then subtract the mean (x)  from the raw score (mu) and divide that difference by the standard deviation data (sigma)
+    Return output (z-score of x)
+    Test output
+    '''
+
+    z = (x - mu) / sigma
+    return z
+# Place the calculated z-score result between the return statement and this comment so it will be returned by the z_score function
+# The z-score of the mean of population1 is 0.0
+# The z-score of the greatest value of population2 is 1.697749375254331
+test_z_score_function()
