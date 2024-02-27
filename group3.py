@@ -126,3 +126,5 @@ def z_score(x, mu, sigma):
 # The z-score of the mean of population1 is 0.0
 # The z-score of the greatest value of population2 is 1.697749375254331
 test_z_score_function()
+
+print(z_score)
